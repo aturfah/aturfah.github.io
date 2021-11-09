@@ -33,7 +33,7 @@
   note: 1st place at Datafest 2019
 - title: Etrian Odyssey 2 Untold Skill Simulator
   link: https://aturfah.github.io/eo2u-skillsim
-  description: Flask-based skill tree visualization and planning tool for Etrian Odyssey 2 Untold.
+  description: React-based skill tree visualization and planning tool for Etrian Odyssey 2 Untold.
   misc_project: true
 - title: Etrian Odyssey Nexus Compendiums
   link: https://aturfah.github.io/eon-codex
@@ -41,7 +41,7 @@
   misc_project: true
 - title: Etrian Odyssey Untold Skill Simulator
   link: https://aturfah.github.io/eou-skillsim
-  description: Flask-based skill tree visualization and planning tool for Etrian Odyssey Untold.
+  description: React-based skill tree visualization and planning tool for Etrian Odyssey Untold.
   misc_project: true
 - title: PS!ABM
   link: https://github.com/aturfah/cmplxsys530-final
