@@ -1,3 +1,8 @@
+- title: Unite Item Prioritization
+  link: https://aturfah.github.io/unite-item-prioritization/
+  description: Item Enhancer prioritization tool for Pok&eacute;mon Unite.
+  misc_project: true
+  highlight_project: false
 - title: A neuro-symbolic method for understanding free-text medical evidence
   link: https://doi.org/10.1093/jamia/ocab077
   short_title: Medical Evidence Dependency-informed Attention
