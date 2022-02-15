@@ -1,7 +1,9 @@
 - title: Extending PICO with Observation Normalization for Evidence Computing
   link: https://www.youtube.com/watch?v=rBUHdEze8ME
+  short_title: Observation Normalization for Evidence Computing
   description: Standard representation of findings in medical literature by significance and clinical direction, enabling evidence computing tasks.
-  note: (Accepted to MedInfo 2021)
+  short_description: Standard representation of medical findings for evidence computing tasks.
+  note: Accepted to MedInfo 2021
   misc_project: false
   highlight_project: true
 - title: Unite Item Prioritization
