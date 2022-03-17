@@ -8,7 +8,7 @@
   highlight_project: true
 - title: Quarantine Pokemon League
   link: http://www.quarantinepokemonleague.com
-  description: Fully functional website for Pok&eacute;mon Showdown-based draft league with administrative (trades, loading players, etc) and analysis (Usage, Team Weakness, In-game performance) functionality.
+  description: Fully functional website for Pok&eacute;mon Showdown-based draft league with administrative (trades, loading players, etc) and analysis (usage statistics, team weakness, in-game performance) functionality.
   short_description: Website for Pok&eacute;mon draft league with built-in administrative features and analyses.
   misc_project: true
   highlight_project: true
