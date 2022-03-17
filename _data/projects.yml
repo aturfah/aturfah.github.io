@@ -1,9 +1,3 @@
-- title: Quarantine Pokemon League
-  link: http://www.quarantinepokemonleague.com
-  description: Fully functional website for Pok&eacute;mon Showdown-based draft league with administrative (trades, loading players, etc) and analysis (Usage, Team Weakness, In-game performance) functionality.
-  short_description: Website for Pok&eacute;mon draft league with various administrative features and analyses built-in.
-  misc_project: true
-  highlight_project: true
 - title: Extending PICO with Observation Normalization for Evidence Computing
   link: https://www.youtube.com/watch?v=rBUHdEze8ME
   short_title: Observation Normalization for Evidence Computing
@@ -11,6 +5,12 @@
   short_description: Standard representation of medical findings for evidence computing tasks.
   note: Accepted to MedInfo 2021
   misc_project: false
+  highlight_project: true
+- title: Quarantine Pokemon League
+  link: http://www.quarantinepokemonleague.com
+  description: Fully functional website for Pok&eacute;mon Showdown-based draft league with administrative (trades, loading players, etc) and analysis (Usage, Team Weakness, In-game performance) functionality.
+  short_description: Website for Pok&eacute;mon draft league with various administrative features and analyses built-in.
+  misc_project: true
   highlight_project: true
 - title: Unite Item Prioritization
   link: https://aturfah.github.io/unite-item-prioritization/
@@ -39,7 +39,7 @@
   link: https://aturfah.github.io/poke2vec/
   description: Pok&eacute;mon vector embeddings generated via Word2Vec model on a simulated metagame.
   misc_project: true
-  highlight_project: true
+  highlight_project: false
 - title: DataFest 2019
   link: https://github.com/aturfah/tbd-datafest-2019
   description: Random forests to assess the influence of religious and sociopolitical factors on the 2016 presidential election.
