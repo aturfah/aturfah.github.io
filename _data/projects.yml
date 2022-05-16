@@ -1,3 +1,9 @@
+- title: Etrian Odyseey Untold Grimoire Editor
+  link: https://github.com/aturfah/eou-grimoire-editor/releases
+  short_title: Save file editor to modify gimoire stones
+  description: Desktop application to edit grimoire stones for Etrian Odyssey Untold save files.
+  misc_project: true
+  highlight_project: false
 - title: Extending PICO with Observation Normalization for Evidence Computing
   link: https://www.youtube.com/watch?v=rBUHdEze8ME
   short_title: Observation Normalization for Evidence Computing
