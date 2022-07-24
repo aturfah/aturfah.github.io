@@ -4,7 +4,7 @@
 {% if item.misc_project == false %}
 <div>
     <div class="project-panel">
-        {% if not item.video_link %}<a href="{{item.link}}">{% endif %}
+        {% if !item.video_link %}<a href="{{item.link}}">{% endif %}
             <h4>{{item.title}}</h4>
             <p class="project-description">{{item.description}}
             {% if item.note %}
@@ -17,7 +17,7 @@
                 [Link]
             {% endif %}
 
-        {% if not item.video_link %}</a>{% endif %}
+        {% if !item.video_link %}</a>{% endif %}
     </div>
 </div>
 {% endif %}
