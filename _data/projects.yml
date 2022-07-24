@@ -11,7 +11,8 @@
   misc_project: true
   highlight_project: false
 - title: Extending PICO with Observation Normalization for Evidence Computing
-  link: https://www.youtube.com/watch?v=rBUHdEze8ME
+  link: https://pubmed.ncbi.nlm.nih.gov/35673015/
+  video_link: https://www.youtube.com/watch?v=rBUHdEze8ME
   short_title: Observation Normalization for Evidence Computing
   description: Standard representation of findings in medical literature by significance and clinical direction, enabling evidence computing tasks.
   short_description: Standard representation of medical findings for evidence computing tasks.
