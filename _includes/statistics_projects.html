@@ -4,13 +4,20 @@
 {% if item.misc_project == false %}
 <div>
     <div class="project-panel">
-        <a href="{{item.link}}">
+        {% if not item.video_link %}<a href="{{item.link}}">{% endif %}
             <h4>{{item.title}}</h4>
             <p class="project-description">{{item.description}}
             {% if item.note %}
-            (<i>{{item.note}}</i>)
+                (<i>{{item.note}}</i>)
             {% endif %} </p>
-        </a>
+            {% if item.video_link %}
+                <a href="{{item.link}}">[Link]</a>
+                <a href="{{item.video_link}}">[Presentation Link]</a>
+            {% else %}
+                [Link]
+            {% endif %}
+
+        {% if not item.video_link %}</a>{% endif %}
     </div>
 </div>
 {% endif %}
