@@ -3,7 +3,7 @@
   short_title: Save file editor to modify gimoire stones
   description: Desktop application to edit grimoire stones in Etrian Odyssey 2 Untold save files.
   misc_project: true
-  highlight_project: false
+  highlight_project: true
 - title: Etrian Odyssey Untold Grimoire Editor
   link: https://github.com/aturfah/eou-grimoire-editor/releases
   short_title: Save file editor to modify gimoire stones
@@ -75,7 +75,7 @@
   description: Agent-based modelling framework to simulate competitive Pok&eacute;mon battles.
   note: Final project for CMPLXSYS 530
   misc_project: false
-  highlight_project: true
+  highlight_project: false
 - title: EOV Party Builder
   link: https://aturfah.github.io/eov-party-builder
   description: Javascript-based party planning tool for Etrian Odyssey V.
