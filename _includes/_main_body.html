@@ -19,24 +19,49 @@
         <p>Below are some projects I'm especially fond of. For a more complete list of projects I've worked on, please check out the <a href="/projects">Projects</a> page.</p>
         <ul>
             {% for item in site.data.projects %}
-            {% if item.highlight_project == true %}
-            <li>
-                <a class="project-highlights" href="{{item.link}}"><b>
-                    {% if item.short_title %}
-                        {{item.short_title}}:
-                    {% else %}
-                        {{item.title}}:
-                    {% endif %}
-                </b></a>
-                    {% if item.short_description %}
-                        {{item.short_description}}
-                    {% else %}
-                        {{item.description}}
-                    {% endif %}
-                    {% if item.note %}
-                        (<i>{{item.note}}</i>)
-                    {% endif %} 
-            </li>
+            {% if item.misc_project == false %}
+                {% if item.highlight_project == true %}
+                <li>
+                    <a class="project-highlights" href="{{item.link}}"><b>
+                        {% if item.short_title %}
+                            {{item.short_title}}:
+                        {% else %}
+                            {{item.title}}:
+                        {% endif %}
+                    </b></a>
+                        {% if item.short_description %}
+                            {{item.short_description}}
+                        {% else %}
+                            {{item.description}}
+                        {% endif %}
+                        {% if item.note %}
+                            (<i>{{item.note}}</i>)
+                        {% endif %} 
+                </li>
+                {% endif %}
+            {% endif %}
+            {% endfor %}
+            {% for item in site.data.projects %}
+            {% if item.misc_project == true %}
+                {% if item.highlight_project == true %}
+                <li>
+                    <a class="project-highlights" href="{{item.link}}"><b>
+                        {% if item.short_title %}
+                            {{item.short_title}}:
+                        {% else %}
+                            {{item.title}}:
+                        {% endif %}
+                    </b></a>
+                        {% if item.short_description %}
+                            {{item.short_description}}
+                        {% else %}
+                            {{item.description}}
+                        {% endif %}
+                        {% if item.note %}
+                            (<i>{{item.note}}</i>)
+                        {% endif %} 
+                </li>
+                {% endif %}
             {% endif %}
             {% endfor %}
         </ul>
