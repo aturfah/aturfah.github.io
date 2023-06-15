@@ -1,0 +1,25 @@
+<div id="project_section" class="info-block">
+
+    <h2>Research</h2>
+    <p>Here are some some projects I've worked on either under the supervision of a professor or for a course</p>
+    {% for item in site.data.projects %}
+    {% if item.misc_project == false %}
+    <div>
+        <div class="project-panel">
+            <a href="{{item.link}}">
+                <h4>{{item.title}}</h4>
+                <p class="project-description">{{item.description}}
+                {% if item.note %}
+                    (<i>{{item.note}}</i>)
+                {% endif %} </p>
+                {% if item.video_link %}
+                    <a href="{{item.link}}">[Link]</a>
+                    <a href="{{item.video_link}}">[Presentation Link]</a>
+                {% endif %}
+            </a>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+</div>

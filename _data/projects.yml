@@ -1,15 +1,33 @@
+- title: Non-parametric Bayesian mixture model to study adverse events of COVID-19 vaccines
+  link: https://arxiv.org/abs/2306.02123
+  short_title: Vaccine Safety analysis with DPM Prior
+  short_description: Improve detection of rare adverse events via Dirichlet process mixture priors.
+  description: Novel application of Dirichlet process mixture priors in vaccine safety analysis, enabling better estimation of rare adverse events via information sharing.
+  note: Under review
+  misc_project: false
+  highlight_project: true
+
+- title: Etrian Odyssey Follow-Up Attack Calculator
+  link: aturfah.github.io/eo-chaser-calc/
+  short_title: EO Chaser Attack Calculator
+  description: Web calculator for expected number and distribution of follow-up attacks.
+  misc_project: true
+  highlight_project: false
+
 - title: Etrian Odyssey 2 Untold Grimoire Editor
   link: https://github.com/aturfah/eo2u-grimoire-editor/releases
   short_title: EO2U Grimoire Editor
   description: Desktop application to edit grimoire stones in Etrian Odyssey 2 Untold save files.
   misc_project: true
   highlight_project: true
+
 - title: Etrian Odyssey Untold Grimoire Editor
   link: https://github.com/aturfah/eou-grimoire-editor/releases
   short_title: Save file editor to modify gimoire stones
   description: Desktop application to edit grimoire stones in Etrian Odyssey Untold save files.
   misc_project: true
   highlight_project: false
+
 - title: Extending PICO with Observation Normalization for Evidence Computing
   link: https://pubmed.ncbi.nlm.nih.gov/35673015/
   video_link: https://www.youtube.com/watch?v=rBUHdEze8ME
@@ -19,17 +37,20 @@
   note: Accepted to MedInfo 2021
   misc_project: false
   highlight_project: true
+
 - title: Quarantine Pokemon League
   link: https://quarantinepokemonleague.com
   description: Website for Pok&eacute;mon Showdown-based draft league with administrative (trades, loading players, etc) and analysis (usage statistics, team weakness, in-game performance) functionality.
   short_description: Website for Pok&eacute;mon draft league with built-in administrative features and analyses.
   misc_project: true
   highlight_project: true
+
 - title: Unite Item Prioritization
   link: https://aturfah.github.io/unite-item-prioritization/
   description: Item Enhancer prioritization tool for Pok&eacute;mon Unite.
   misc_project: true
   highlight_project: false
+
 - title: A neuro-symbolic method for understanding free-text medical evidence
   link: https://doi.org/10.1093/jamia/ocab077
   short_title: Medical Evidence Dependency-informed Attention
@@ -38,52 +59,46 @@
   note: Published in JAMIA
   misc_project: false
   highlight_project: true
-- title: Model Design for Deep Learning in Practice
-  link: https://github.com/aturfah/5242_final_project/blob/main/5242_final_report.pdf
-  description: Report on the effect of architecture, initialization, optimization, and regularization choices on classification performance. Testing against the MNIST, Fashion-MNIST, Kuzushiji-MNIST, and Kuzushiji-49 datasets.
-  note: Final project for STAT 5242
-  misc_project: false
-# - title: Country-level Coronavirus Daily Forecasts
-#   link: /assets/misc/5232_final_report.pdf
-#   description: Report on using an Quasi-Poisson GLM to predict the Coronavirus daily death rate at a country level.
-#   note: Final project for STAT 5232
-#   misc_project: false
+
 - title: Poke2Vec
   link: https://aturfah.github.io/poke2vec/
   description: Pok&eacute;mon vector embeddings generated via Word2Vec model on a simulated metagame.
   misc_project: true
   highlight_project: false
+
 - title: DataFest 2019
   link: https://github.com/aturfah/tbd-datafest-2019
   description: Random forests to assess the influence of religious and sociopolitical factors on the 2016 presidential election.
-  misc_project: false
+  misc_project: true
   note: 1st place at Datafest 2019
+
 - title: Etrian Odyssey 2 Untold Skill Simulator
   link: https://aturfah.github.io/eo2u-skillsim
   description: React-based skill tree visualization and planning tool for Etrian Odyssey 2 Untold.
   misc_project: true
+
 - title: Etrian Odyssey Nexus Compendiums
   link: https://aturfah.github.io/eon-codex
   description: More readily searchable version of the Item and Monster lists from Etrain Odyssey Nexus.
   misc_project: true
+
 - title: Etrian Odyssey Untold Skill Simulator
   link: https://aturfah.github.io/eou-skillsim
   description: React-based skill tree visualization and planning tool for Etrian Odyssey Untold.
   misc_project: true
+
 - title: PS!ABM
   link: https://github.com/aturfah/cmplxsys530-final
   description: Agent-based modelling framework to simulate competitive Pok&eacute;mon battles.
   note: Final project for CMPLXSYS 530
-  misc_project: false
-  highlight_project: false
-- title: EOV Party Builder
-  link: https://aturfah.github.io/eov-party-builder
-  description: Javascript-based party planning tool for Etrian Odyssey V.
   misc_project: true
+  highlight_project: false
+
 - title: Smogon Usage Stats Visualizer
   link: https://github.com/aturfah/smogon-usage-stats
   description: Flask-based web application to visualize usage trends in online Pok&eacute;mon battles.
   misc_project: true
+
 - title: ProtoCat
   link: https://2017.igem.org/Team:Michigan_Software
   description: Open source online catalog to store and share lab protocols.
