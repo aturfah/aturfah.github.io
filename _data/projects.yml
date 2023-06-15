@@ -10,21 +10,21 @@
 - title: Etrian Odyssey Follow-Up Attack Calculator
   link: aturfah.github.io/eo-chaser-calc/
   short_title: EO Chaser Attack Calculator
-  description: Web calculator for expected number and distribution of follow-up attacks.
+  description: Web calculator for expected number and distribution of follow-up attacks. Built with React.
   misc_project: true
   highlight_project: false
 
 - title: Etrian Odyssey 2 Untold Grimoire Editor
   link: https://github.com/aturfah/eo2u-grimoire-editor/releases
   short_title: EO2U Grimoire Editor
-  description: Desktop application to edit grimoire stones in Etrian Odyssey 2 Untold save files.
+  description: Desktop application to edit grimoire stones in Etrian Odyssey 2 Untold save files. Built in Python with Flask and Eel.
   misc_project: true
   highlight_project: true
 
 - title: Etrian Odyssey Untold Grimoire Editor
   link: https://github.com/aturfah/eou-grimoire-editor/releases
   short_title: Save file editor to modify gimoire stones
-  description: Desktop application to edit grimoire stones in Etrian Odyssey Untold save files.
+  description: Desktop application to edit grimoire stones in Etrian Odyssey Untold save files. Built in Python with Flask and Eel.
   misc_project: true
   highlight_project: false
 
@@ -47,7 +47,7 @@
 
 - title: Unite Item Prioritization
   link: https://aturfah.github.io/unite-item-prioritization/
-  description: Item Enhancer prioritization tool for Pok&eacute;mon Unite.
+  description: Item Enhancer prioritization tool for Pok&eacute;mon Unite. 
   misc_project: true
   highlight_project: false
 
