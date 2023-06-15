@@ -2,7 +2,7 @@
   link: https://arxiv.org/abs/2306.02123
   short_title: Vaccine Safety analysis with DPM Prior
   short_description: Improve detection of rare adverse events via Dirichlet process mixture priors.
-  description: Estimating the association between rare adverse events and a vaccine of interest is difficult due to sparse counts. We use a Dirichlet process mixture prior to improve estimation by allowing data-guided information sharing, and incorporate negative controls to control for false positive associations. Adverse event group enrichment analyses are also presented.
+  description: Bayesian logistic regression with Dirichlet process mixture priors for vaccine safety analysis, enabling better estimation of rare adverse events via data-guided information sharing.
   note: Under review
   misc_project: false
   highlight_project: true
