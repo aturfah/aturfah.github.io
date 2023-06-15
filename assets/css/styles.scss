@@ -45,10 +45,6 @@ h1 {
     font-size: 11pt;
 }
 
-p.project-description {
-    font-size: 10pt;
-}
-
 .content {
     padding-left: 30px;
     background-color: white;
@@ -124,24 +120,31 @@ p.project-description {
 }
 
 .project-panel {
-    border-style: solid;
-    border-width: thin;
-    border-color: gray;
-    display: block;
-    box-shadow: 5px 5px 5px lightgrey;
-    // font-size: 10pt;
-    margin-top: 20px;
-    margin-right: 20px;
+    // border-style: solid;
+    // border-width: thin;
+    // border-color: gray;
+    display: inline-block;
+    width: 42%;
+    margin-bottom: 2%;
+    margin-right: 5%;
     padding: 10px;
+    vertical-align: top;
 }
 
 .project-panel h4 {
     padding: 0;
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .project-panel p {
     padding: 0;
     margin: 0;
-    font-size: 11pt;
+    font-size: 10pt;
+}
+
+a.project-link, a.project-link:hover, a.project-link:visited, a.project-link:active, a.project-link:link {
+    color: blue;
+    text-decoration-line: underline;
 }
