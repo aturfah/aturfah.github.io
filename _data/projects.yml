@@ -1,3 +1,8 @@
+- title: Etrian Odyssey II & III HD Skill Simulators
+  link: https://aliturfah.com/eo-hd-skillsim/
+  description: React-based skill tree visualization and planning tool for the Etrian Odyssey II and III HD Remakes.
+  misc_project: true
+
 - title: Non-parametric Bayesian mixture model to study adverse events of COVID-19 vaccines
   link: https://arxiv.org/abs/2306.02123
   short_title: Vaccine Safety analysis with DPM Prior
