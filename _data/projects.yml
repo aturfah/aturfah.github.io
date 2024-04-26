@@ -1,3 +1,12 @@
+- title: Interpretable Clustering witht he Distinguishability Criterion
+  link: https://arxiv.org/abs/2404.15967
+  short_title: The Distinguishability Criterion
+  short_description: Cluster validity index to determine the separation of inferred clusters to control over-clustering.
+  description: Cluster validity index to determine the separation of inferred clusters, which can be readily incorporated with k-means, hierarchical, and mixture-model-based clustering algorithms.
+  note: Under review
+  misc_project: false
+  highlight_project: true
+
 - title: Etrian Odyssey II & III HD Skill Simulators
   link: https://aturfah.github.io/eo-hd-skillsim/
   description: React-based skill tree visualization and planning tool for the Etrian Odyssey II and III HD remakes.
