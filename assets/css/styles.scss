@@ -165,10 +165,17 @@ ul.url-list {
   .centered-content {
     align-items: normal;
     padding-top: 10%;
+    padding-bottom: 10%;
   }
 }
 
 // Add some padding for research page
 li.publication-li {
     padding: 0.3em;
+}
+
+// Add some spacing for projects page
+.project-description {
+    font-size: medium;
+    padding-bottom: 0.3em;
 }
