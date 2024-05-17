@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
 
     <!-- Font Awesome Glyphs-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"  crossorigin="anonymous">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans|Ubuntu" rel="stylesheet">
@@ -33,13 +33,12 @@
   <div class="container-fluid">
     <div class="row">
       {% include _navigation.html %}
-      <div class="col-md main-body">
-        <div class="centered-content">
-          {{ content }}
+      <div class="col-md overflow-scroll">
+        <div class="main-body">
+          <div class="main-body-div">
+            {{ content }}
+          </div>
         </div>
-      </div>
-      <div class="col-md-1 pad-column">
-            One of three columns
       </div>
     </div>
   </div>

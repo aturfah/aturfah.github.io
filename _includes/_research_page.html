@@ -1,22 +1,23 @@
-<div id="project_section" class="info-block">
-    <h2>Research</h2>
-    <p></p>
-    {% for item in site.data.projects %}
-    {% if item.misc_project == false %}
-            <div class="project-panel">
-                    <a href="{{item.link}}"><h4>{{item.title}}</h4></a>
-                    <p>
-                        <a class="project-link" href="{{item.link}}">Manuscript Link</a>
-                        {% if item.video_link %}
-                            <br/><a class="project-link" href="{{item.video_link}}">Presentation Link</a>
-                        {% endif %}    
-                    </p>
-                    <p class="project-description">{{item.description}}</p>
-                    {% if item.note %}
-                        <p><i>{{item.note}}</i></p>
-                    {% endif %} 
-            </div>
-    {% endif %}
-    {% endfor %}
-
+<div class="top-padded-content">
+    <div>
+        <h2>Research</h2>
+        <p></p>
+        {% for item in site.data.projects %}
+        {% if item.misc_project == false %}
+                <div class="project-panel">
+                        <a href="{{item.link}}"><h4>{{item.title}}</h4></a>
+                        <p>
+                            <a class="project-link" href="{{item.link}}">Manuscript Link</a>
+                            {% if item.video_link %}
+                                <br/><a class="project-link" href="{{item.video_link}}">Presentation Link</a>
+                            {% endif %}    
+                        </p>
+                        <p class="project-description">{{item.description}}</p>
+                        {% if item.note %}
+                            <p><i>{{item.note}}</i></p>
+                        {% endif %} 
+                </div>
+        {% endif %}
+        {% endfor %}
+    </div>
 </div>
