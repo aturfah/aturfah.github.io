@@ -1,6 +1,3 @@
-- favicon: fa fa-file
-  link: CV_LINK
-  name: Download CV
 - favicon: fab fa-github
   link: https://github.com/aturfah
   name: GitHub
