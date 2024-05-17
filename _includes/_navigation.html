@@ -1,26 +1,22 @@
-<div class="navcol">
-<div class="col-xs-3"></div>
-<div class="col-xs-3 animate-area align-left">
-    <a href="/"><img class="img-circle" src="/assets/images/headshot.jpeg"></a>
-    <ul class="url-list">
-      {% for item in site.data.navigation %}
-        <li>
-          <a href="{{ item.link }}"">{{ item.name }}</a>
-        </li>
-      {% endfor %}
-      <li><a href="{{ site.data.info.resume_link }}">CV</a></li>
-    </ul>
-
-    <!-- <div class="row">
-        <div class="footer col-xs-12">
-          {% for link in site.data.footer_links %}
-            <a href="{{link.link}}">{{link.name}} <i class="fab {{link.favicon}}"></i></a>
-            {% if forloop.index != forloop.length %} | {% endif %}
-          {% endfor %}
-            <br/>
-            <!-- <a href="https://davidwalsh.name/background-animation-css">Background Image Source</a><br/> -->
-        </div>
-    </div> -->
-
-</div>
+<div class="nav-div animate-area">
+  <div class="nav-column">
+      <div class="centered-content">
+          <div>
+              <a href="/"><img class="img-circle" src="/assets/images/headshot.jpeg"></a>
+              <h2>Ali Turfah</h2>
+              <p class="nav-tagline">PhD Candidate in Biostatistics<br/>at the University of Michigan</p>
+              <ul class="url-list">
+                  {% for item in site.data.navigation %}
+                  <li>
+                      <a href="{{ item.link }}"">{{ item.name }}</a>
+                  </li>
+                  {% endfor %}
+                  <li><a href="{{ site.data.info.resume_link }}">CV</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="nav-bar container-fluid">
+      <h2 class="nav-bar-name">Ali Turfah</h2>
+  </div>
 </div>
