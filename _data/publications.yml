@@ -1,0 +1,14 @@
+- citation: '<b>Turfah, Ali</b> and Xiaoquan Wen (2024). "Interpretable clustering with the Distinguishability criterion". In: arXiv preprint arXiv:2404.15967.'
+  link: https://arxiv.org/abs/2404.15967
+  type: under_review
+- citation: '<b>Turfah, Ali</b>, Xiaoquan Wen, and Lili Zhao (2023). "Non-parametric Bayesian mixture model to study adverse events of COVID-19 vaccines". In: arXiv preprint arXiv:2306.02123.'
+  link: https://arxiv.org/abs/2306.02123
+  type: under_review
+
+
+- citation: '<b>Turfah, Ali</b>, Hao Liu, Latoya A Stewart, Tian Kang, and Chunhua Weng (2022). "Extending PICO with Observation Normalization for Evidence Computing". In: Studies in health technology and informatics 290, pp. 268–272.'
+  link: https://pubmed.ncbi.nlm.nih.gov/35673015/
+  type: published
+- citation: 'Kang, Tian, <b>Ali Turfah</b>, Jaehyun Kim, Adler Perotte, and Chunhua Weng (2021). "A neuro-symbolic method for understanding free-text medical evidence". In: Journal of the American Medical Informatics Association'
+  link: https://academic.oup.com/jamia/article/28/8/1703/6270974
+  type: published
