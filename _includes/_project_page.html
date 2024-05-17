@@ -1,20 +1,21 @@
 <div class="top-padded-content">
     <div>
-        <h2>Misc Projects</h2>
-        <p>Here are some projects I've worked on for fun, or to learn some new technology.</p>
-        {% for item in site.data.projects %}
-        {% if item.misc_project == true %}
-                <div class="project-panel">
-                        <a href="{{item.link}}"><h4>{{item.title}}</h4></a>
-                        <p>
-                            <a class="project-link" href="{{item.link}}">Project Link</a>
-                        </p>
-                        <p class="project-description">{{item.description}}</p>
+        <h2>Misc. Projects</h2>
+        <p>Here are some projects and tools I've worked on.</p>
+        <ul>
+            {% for item in site.data.projects %}
+            {% if item.hidden != true %}
+            <div>
+                <a class="project-link" href="{{item.link}}"><h5>{{item.title}}</h5></a>
+                    <p class="project-description">
+                        {{item.description}} 
                         {% if item.note %}
-                            <p><i>{{item.note}}</i></p>
+                        <i>({{item.note}})</i>
                         {% endif %} 
-                </div>
-        {% endif %}
-        {% endfor %}
-        </div>
+                    </p>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
 </div>

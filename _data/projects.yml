@@ -1,3 +1,11 @@
+- title: Quarantine Pokemon League
+  link: https://quarantinepokemonleague.com
+  description: Website for Pok&eacute;mon Showdown-based draft league with administrative (trades, loading players, etc) and analysis (usage statistics, team weakness, in-game performance) functionality.
+  short_description: Website for Pok&eacute;mon draft league with built-in administrative features and analyses.
+  misc_project: true
+  highlight_project: true
+
+
 - title: Etrian Odyssey II & III HD Skill Simulators
   link: https://aturfah.github.io/eo-hd-skillsim/
   description: React-based skill tree visualization and planning tool for the Etrian Odyssey II and III HD remakes.
@@ -24,13 +32,6 @@
   misc_project: true
   highlight_project: false
 
-- title: Quarantine Pokemon League
-  link: https://quarantinepokemonleague.com
-  description: Website for Pok&eacute;mon Showdown-based draft league with administrative (trades, loading players, etc) and analysis (usage statistics, team weakness, in-game performance) functionality.
-  short_description: Website for Pok&eacute;mon draft league with built-in administrative features and analyses.
-  misc_project: true
-  highlight_project: true
-
 - title: Unite Item Prioritization
   link: https://aturfah.github.io/unite-item-prioritization/
   description: Item Enhancer prioritization tool for Pok&eacute;mon Unite. 
@@ -42,12 +43,14 @@
   description: Pok&eacute;mon vector embeddings generated via Word2Vec model on a simulated metagame.
   misc_project: true
   highlight_project: false
+  hidden: true
 
 - title: DataFest 2019
   link: https://github.com/aturfah/tbd-datafest-2019
   description: Random forests to assess the influence of religious and sociopolitical factors on the 2016 presidential election.
   misc_project: true
   note: 1st place at Datafest 2019
+  hidden: true
 
 - title: Etrian Odyssey 2 Untold Skill Simulator
   link: https://aturfah.github.io/eo2u-skillsim
@@ -75,9 +78,11 @@
   link: https://github.com/aturfah/smogon-usage-stats
   description: Flask-based web application to visualize usage trends in online Pok&eacute;mon battles.
   misc_project: true
+  hidden: true
 
 - title: ProtoCat
   link: https://2017.igem.org/Team:Michigan_Software
   description: Open source online catalog to store and share lab protocols.
   note: Best Software Award at iGEM 2016
   misc_project: true
+  hidden: true
