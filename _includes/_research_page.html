@@ -4,7 +4,7 @@
         <ol>
             {% for item in site.data.publications %}
             {% if item.type == "under_review" %}
-                    <li>{{item.citation}}
+                    <li class="publication-li">{{item.citation}}
                         {% if item.link %}
                         <a href="{{ item.link }}">Link.</a>
                         {% endif %}
@@ -17,7 +17,7 @@
         <ol>
             {% for item in site.data.publications %}
             {% if item.type != "under_review" %}
-                    <li>{{item.citation}}
+                    <li class="publication-li">{{item.citation}}
                         {% if item.link %}
                         <a href="{{ item.link }}">Link.</a>
                         {% endif %}
