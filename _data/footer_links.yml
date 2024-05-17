@@ -7,3 +7,6 @@
 - favicon: fab fa-linkedin
   link: https://www.linkedin.com/in/ali-turfah-66b895b1/
   name: Linkedin
+- favicon: fab fa-orcid
+  link: https://orcid.org/0009-0004-4762-9671
+  name: ORCID
