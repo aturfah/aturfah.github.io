@@ -48,18 +48,34 @@ h1, h2, h3, h4, .url-list li {
     height: 100vh;
     width: 350px;
     margin-right: 0.5em;
+    font-weight: bold;
 }
+
 
 .nav-tagline {
     font-size: medium;
 }
 
 .nav-column-content {
-    padding-bottom: 5em;
+    padding-bottom: 20%;
 }
 
 .nav-bar {
     display: none;
+}
+
+ul.url-list {
+    font-size: large;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.url-list a, .url-list a:hover, .url-list a:visited, .url-list a:active, .url-list a:link {
+    color: inherit;
+    text-decoration: none;
 }
 
 // Main body styling
@@ -78,6 +94,17 @@ h1, h2, h3, h4, .url-list li {
     height: 100%;
 }
 
+.social-links {
+    // width: 100%;
+    // align-items: center;
+    // justify-content: center;
+    text-align: center;
+}
+
+.social-links a {
+    // width: auto;
+    text-align: center;
+}
 
 // For page content layout
 .centered-content {
@@ -94,7 +121,6 @@ h1, h2, h3, h4, .url-list li {
 
 
 // Navbar/Main page responsiveness
-
 @media (max-width: 992px) {
 .pad-column {
     display: none;
