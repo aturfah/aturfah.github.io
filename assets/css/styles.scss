@@ -49,7 +49,7 @@ body {
     height: 100vh;
     width: 350px;
     margin-right: 0.5em;
-    font-weight: normal;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -152,6 +152,10 @@ ul.url-list {
     display: flex;
     background-color: #8EC1DA;
     font-weight: bolder
+  }
+
+  .navbar-light {
+    color: inherit;
   }
 
   .nav-bar li {
