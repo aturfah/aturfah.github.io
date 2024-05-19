@@ -1,3 +1,4 @@
+## UNDER REVIEW
 - citation: '<b>Turfah, Ali</b> and Xiaoquan Wen (2024). "Interpretable clustering with the Distinguishability criterion". In: arXiv preprint arXiv:2404.15967.'
   link: https://arxiv.org/abs/2404.15967
   type: under_review
@@ -5,10 +6,32 @@
   link: https://arxiv.org/abs/2306.02123
   type: under_review
 
-
+## PEER REVIEWED
 - citation: '<b>Turfah, Ali</b>, Hao Liu, Latoya A Stewart, Tian Kang, and Chunhua Weng (2022). "Extending PICO with Observation Normalization for Evidence Computing". In: Studies in health technology and informatics 290, pp. 268–272.'
   link: https://pubmed.ncbi.nlm.nih.gov/35673015/
   type: published
 - citation: 'Kang, Tian, <b>Ali Turfah</b>, Jaehyun Kim, Adler Perotte, and Chunhua Weng (2021). "A neuro-symbolic method for understanding free-text medical evidence". In: Journal of the American Medical Informatics Association'
   link: https://academic.oup.com/jamia/article/28/8/1703/6270974
   type: published
+- citation: 'Nicolas, J., B. Claessen, D. Cao, M. Chiarito, S. Sartori, H. Qiu, R. Goel, M. Nardin, A. Roumeliotis, B. Vogel, <b>A. Turfah</b>, R. Chandiramani, U Baber, N. Barman, J. Sweeny, P. Krishnan, A. Kini, S. Sharma, G. Dangas, R. Mehran. (2021). “A Sex Paradox in Clinical Outcomes Following Complex Percutaneous Coronary Intervention”. In: International journal of cardiology 329, pp. 67–73.'
+  link: https://www.sciencedirect.com/science/article/abs/pii/S0167527320342364
+  type: published
+
+
+## POSTERS
+- citation: '<b>Turfah, Ali</b> and Xiaoquan Wen (2024). "Interpretable clustering with the Distinguishability criterion". Joint Statistical Meetings (Portland, Oregon 2024)'
+  type: poster
+- citation: '<b>Turfah, Ali</b>, Xiaoquan Wen, and Lili Zhao (2023). "Non-parametric Bayesian mixture model to study adverse events of COVID-19 vaccines". International Chinese Statistical Association Applied Statistics Symposium (University of Michigan, Ann Arbor, MI, 2023)'
+  type: poster
+- citation: 'Miller, Erin, Rima Charara, <b>Ali Turfah</b>, and Jennifer Mendez (2022). “Optimizing older adult blood pressure screening in a community setting by interprofessional students”. In: Innovation in Aging 6.Suppl 1, p. 517.'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9766458/
+  type: poster
+
+
+## Abstracts
+- citation: 'Elzinga, Sarah, Mohamed Noureldein, Kai Guo, Dae-Gyu Jang, John Hayes, Rosemary Henn, Ian Webber-Davis, Faye Mendelson, Rachel Parent, Diana Rigan, Adam Allouch, <b>Ali Turfah</b>, Lili Zhao, Geoffrey Murphy, Junguk Hur, and Eva L. Feldman (2023). “Long-term high-fat feeding: Connecting metabolism, cognitive impairment, and altered microglial morphology”. In: Journal of the Neurological Sciences 455'
+  link: https://www.jns-journal.com/article/S0022-510X(23)00516-6/fulltext#%20
+  type: abstract
+- citation: 'Chiarito, M., A. Roumeliotis, D. Cao, D. Power, S. Sartori, Z. Zhang, A. Reisman, T. Mtisi, M. Nardin, J. Nicolas, H. Qiu, <b>A. Turfah</b>, et al. (2021). “Prevalence and prognostic impact of high bleeding risk status in patients undergoing percutaneous coronary intervention for left main coronary artery disease”. In: Journal of the American College of Cardiology 77.18 Supplement 1, pp. 1148–1148.'
+  link: https://www.jacc.org/doi/full/10.1016/S0735-1097%2821%2902507-9
+  type: abstract
