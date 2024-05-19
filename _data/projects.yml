@@ -1,28 +1,18 @@
-- title: Interpretable Clustering witht he Distinguishability Criterion
-  link: https://arxiv.org/abs/2404.15967
-  short_title: The Distinguishability Criterion
-  short_description: Cluster validity index to determine the separation of inferred clusters to control over-clustering.
-  description: Cluster validity index to determine the separation of inferred clusters, which can be readily incorporated with k-means, hierarchical, and mixture-model-based clustering algorithms.
-  note: Under review
-  misc_project: false
+- title: Quarantine Pokemon League
+  link: https://quarantinepokemonleague.com
+  description: Website for Pok&eacute;mon Showdown-based draft league with administrative (trades, loading players, etc) and analysis (usage statistics, team weakness, in-game performance) functionality.
+  short_description: Website for Pok&eacute;mon draft league with built-in administrative features and analyses.
+  misc_project: true
   highlight_project: true
+
 
 - title: Etrian Odyssey II & III HD Skill Simulators
   link: https://aturfah.github.io/eo-hd-skillsim/
   description: React-based skill tree visualization and planning tool for the Etrian Odyssey II and III HD remakes.
   misc_project: true
 
-- title: Non-parametric Bayesian mixture model to study adverse events of COVID-19 vaccines
-  link: https://arxiv.org/abs/2306.02123
-  short_title: Vaccine Safety analysis with DPM Prior
-  short_description: Improve detection of rare adverse events via Dirichlet process mixture priors.
-  description: Bayesian logistic regression with Dirichlet process mixture priors for vaccine safety analysis, improving estimation of association with rare adverse events via data-guided information sharing.
-  note: Under review
-  misc_project: false
-  highlight_project: true
-
 - title: Etrian Odyssey Follow-Up Attack Calculator
-  link: aturfah.github.io/eo-chaser-calc/
+  link: https://aturfah.github.io/eo-chaser-calc/
   short_title: EO Chaser Attack Calculator
   description: Web calculator for expected number and distribution of follow-up attacks. Built with React.
   misc_project: true
@@ -42,49 +32,25 @@
   misc_project: true
   highlight_project: false
 
-- title: Extending PICO with Observation Normalization for Evidence Computing
-  link: https://pubmed.ncbi.nlm.nih.gov/35673015/
-  video_link: https://www.youtube.com/watch?v=rBUHdEze8ME
-  short_title: Observation Normalization for Evidence Computing
-  description: Standard representation of findings in medical literature by significance and clinical direction, enabling evidence computing tasks.
-  short_description: Standard representation of medical findings for evidence computing tasks.
-  note: Accepted to MedInfo 2021
-  misc_project: false
-  highlight_project: true
-
-- title: Quarantine Pokemon League
-  link: https://quarantinepokemonleague.com
-  description: Website for Pok&eacute;mon Showdown-based draft league with administrative (trades, loading players, etc) and analysis (usage statistics, team weakness, in-game performance) functionality.
-  short_description: Website for Pok&eacute;mon draft league with built-in administrative features and analyses.
-  misc_project: true
-  highlight_project: true
-
 - title: Unite Item Prioritization
   link: https://aturfah.github.io/unite-item-prioritization/
   description: Item Enhancer prioritization tool for Pok&eacute;mon Unite. 
   misc_project: true
   highlight_project: false
 
-- title: A neuro-symbolic method for understanding free-text medical evidence
-  link: https://doi.org/10.1093/jamia/ocab077
-  short_title: Medical Evidence Dependency-informed Attention
-  short_description: Neuro-symbolic variant of Multi-head self-attention.
-  description: Medical evidence Dependency (MD)–informed attention, an extension of Multi-head self-attention that incorporates medical domain knowledge into a neural model.
-  note: Published in JAMIA
-  misc_project: false
-  highlight_project: true
-
 - title: Poke2Vec
   link: https://aturfah.github.io/poke2vec/
   description: Pok&eacute;mon vector embeddings generated via Word2Vec model on a simulated metagame.
   misc_project: true
   highlight_project: false
+  hidden: true
 
 - title: DataFest 2019
   link: https://github.com/aturfah/tbd-datafest-2019
   description: Random forests to assess the influence of religious and sociopolitical factors on the 2016 presidential election.
   misc_project: true
   note: 1st place at Datafest 2019
+  hidden: true
 
 - title: Etrian Odyssey 2 Untold Skill Simulator
   link: https://aturfah.github.io/eo2u-skillsim
@@ -112,9 +78,11 @@
   link: https://github.com/aturfah/smogon-usage-stats
   description: Flask-based web application to visualize usage trends in online Pok&eacute;mon battles.
   misc_project: true
+  hidden: true
 
 - title: ProtoCat
   link: https://2017.igem.org/Team:Michigan_Software
   description: Open source online catalog to store and share lab protocols.
   note: Best Software Award at iGEM 2016
   misc_project: true
+  hidden: true

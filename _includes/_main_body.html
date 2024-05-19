@@ -1,98 +1,35 @@
-<div>
-    <!-- <div>
-        <h1>Ali Turfah</h1><hr />
-    </div> -->
-
-    <div id="about_section" class="info-block">
-        <h2>About</h2>
-        <p>
-            Hello! My name is Ali Turfah, I am a PhD student in the Biostatistics Department at the University of Michigan. I am interested in the statistical and computational problems that arise in biological and healthcare data, especially genomics. Right now I'm working with <a href="https://sph.umich.edu/faculty-profiles/wen-xiaoquan.html">Dr. William Wen</a> on problems related to model-based clustering. 
-        </p>
-        <p>
-            I did my undergraduate studies in Data Science through the University of Michigan's College of Engineering, after which I worked for a year as a Data Scientist at <a href="https://algo.com">Algo</a>, a start-up in Troy, MI.
-            I completed an M.A. in Statistics at Columbia University in December 2021, after which I worked in <a href="http://people.dbmi.columbia.edu/~chw7007/">Dr. Chunhua Weng</a>'s research group on problems related to medical literature mining and evidence extraction.
-            During the first year of my PhD I worked with <a href="https://sph.umich.edu/faculty-profiles/zhao-lili.html">Dr. Lili Zhao</a> on a project related to methodology development for vaccine safety studies with a focus on the COVID-19 vaccines.
-        </p>
-    </div>
-
-    <div id="projects_section" class="info-block">
-        <h2>Overview</h2>
-        <p>
-            Please check out the <a href="/research">Research</a> page for a more complete list of research I've been involved with. Additionally, side-projects I've been involved in can be found on the <a href="/projects">Projects</a> page. Below is some of the work that I am especially proud of. 
-        </p>
-        <ul>
-            {% for item in site.data.projects %}
-            {% if item.misc_project == false %}
-                {% if item.highlight_project == true %}
-                <li>
-                    <a class="project-highlights" href="{{item.link}}"><b>
-                        {% if item.short_title %}
-                            {{item.short_title}}:
-                        {% else %}
-                            {{item.title}}:
-                        {% endif %}
-                    </b></a>
-                        {% if item.short_description %}
-                            {{item.short_description}}
-                        {% else %}
-                            {{item.description}}
-                        {% endif %}
-                        {% if item.note %}
-                            (<i>{{item.note}}</i>)
-                        {% endif %} 
-                </li>
-                {% endif %}
-            {% endif %}
-            {% endfor %}
-            {% for item in site.data.projects %}
-            {% if item.misc_project == true %}
-                {% if item.highlight_project == true %}
-                <li>
-                    <a class="project-highlights" href="{{item.link}}"><b>
-                        {% if item.short_title %}
-                            {{item.short_title}}:
-                        {% else %}
-                            {{item.title}}:
-                        {% endif %}
-                    </b></a>
-                        {% if item.short_description %}
-                            {{item.short_description}}
-                        {% else %}
-                            {{item.description}}
-                        {% endif %}
-                        {% if item.note %}
-                            (<i>{{item.note}}</i>)
-                        {% endif %} 
-                </li>
-                {% endif %}
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
-
-    <div class="info-block">
-        <h2>Getting in Touch</h2>
-        <p>
-            If you would like to get in touch, I can be reached at &lt;aturfah <i>at</i> umich <i>dot</i> edu&gt;. Additionally, please find my CV below, as well as links to my Github and Linkedin.
-        </p>
-        <div class="row">
-            <div class="col-xs-12 mainpage-links-container">
-              {% for link in site.data.footer_links %}
-                  <div class="mainpage-links">
-                      {% if link.link == "CV_LINK" %}
-                          <a href="{{site.data.info.resume_link}}">
-                      {% else %}
-                          <a href="{{link.link}}">
-                      {% endif %}
-                      {{link.name}} <i class="{{link.favicon}}"></i></a></h4>
-                  </div>
-              {% endfor %}
-          </div>
-  
-          <br/>
-      </div>
-  
-    </div>
-
-
+<div class="centered-content">
+    <div>
+        <!-- <div>
+            <h1>Ali Turfah</h1><hr />
+        </div> -->
+    
+        <div id="about_section" class="info-block">
+            <h2>About</h2>
+            <p>
+                I am a Ph.D candidate in the Biostatistics Department at the University of Michigan co-advized by <a href="https://sph.umich.edu/faculty-profiles/wen-xiaoquan.html">William Wen</a> and <a href="https://sph.umich.edu/faculty-profiles/zhao-lili.html">Lili Zhao</a>. My dissertation research focuses on new methods for cluster analysis to help improve analyses of biomedical data, with applications in COVID-19 vaccine safety studies and single-cell RNA expression data.
+            </p>
+            <p>
+                I completed my undergraduate studies in Data Science Engineering from the University of Michigan College of Engineering in 2018, and completed my M.A. in Statistics from Columbia University in 2021. 
+            </p>
+        </div>
+    
+        <div class="info-block">
+            <h2>Getting in Touch</h2>
+            <p>
+                If you would like to get in touch, I can be reached at &lt;aturfah <i>at</i> umich <i>dot</i> edu&gt;. Links to various accounts are included below as well.
+            </p>
+            <div class="social-links container-fluid">
+                <div class="row">
+                    <div class="col-md"></div>
+                    {% for link in site.data.footer_links %}
+                    <div class="col-md">
+                        <a href="{{link.link}}">{{link.name}} <i class="{{link.favicon}}"></i></a></h4>
+                    </div>
+                    {% endfor %}
+                    <div class="col-md"></div>
+                </div>
+            </div>
+        </div>
+    </div>    
 </div>

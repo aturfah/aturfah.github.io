@@ -1,26 +1,39 @@
-<div class="navcol">
-<div class="col-xs-3"></div>
-<div class="col-xs-3 animate-area align-left">
-    <a href="/"><img class="img-circle" src="/assets/images/headshot.jpeg"></a>
-    <ul class="url-list">
-      {% for item in site.data.navigation %}
-        <li>
-          <a href="{{ item.link }}"">{{ item.name }}</a>
+<div class="nav-div animate-area">
+  <div class="nav-column">
+      <div class="centered-content">
+          <div class="nav-column-content">
+              <a href="/"><img class="img-circle" src="/assets/images/headshot.jpeg"></a>
+              <h1>Ali Turfah</h1>
+              <p class="nav-tagline">PhD Candidate in Biostatistics<br/>at the University of Michigan</p>
+              <ul class="url-list">
+                  {% for item in site.data.navigation %}
+                  <li>
+                      <a href="{{ item.link }}"">{{ item.name }}</a>
+                  </li>
+                  {% endfor %}
+                  <li><a href="{{ site.data.info.resume_link }}">CV</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
+  <nav class="nav-bar navbar navbar-light">
+    <a class="navbar-brand" href="#"><h2 class="nav-bar-name">Ali Turfah</h2></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        {% for item in site.data.navigation %}
+        <li class="nav-item">
+            <a class="nav-link" href="{{ item.link }}"">{{ item.name }}</a>
         </li>
-      {% endfor %}
-      <li><a href="{{ site.data.info.resume_link }}">CV</a></li>
-    </ul>
-
-    <!-- <div class="row">
-        <div class="footer col-xs-12">
-          {% for link in site.data.footer_links %}
-            <a href="{{link.link}}">{{link.name}} <i class="fab {{link.favicon}}"></i></a>
-            {% if forloop.index != forloop.length %} | {% endif %}
-          {% endfor %}
-            <br/>
-            <!-- <a href="https://davidwalsh.name/background-animation-css">Background Image Source</a><br/> -->
-        </div>
-    </div> -->
-
-</div>
+        {% endfor %}
+        <li class="nav-item">
+            <a class="nav-link" href="{{ site.data.info.resume_link }}">CV</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </div>
