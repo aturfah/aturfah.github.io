@@ -13,10 +13,36 @@
         {% endfor %}
         </ol>
 
-        <h2>Published</h2>
+        <h2>Peer Reviewed</h2>
         <ol>
             {% for item in site.data.publications %}
-            {% if item.type != "under_review" %}
+            {% if item.type == "published" %}
+                    <li class="publication-li">{{item.citation}}
+                        {% if item.link %}
+                        <a href="{{ item.link }}">Link.</a>
+                        {% endif %}
+                    </li>
+            {% endif %}
+        {% endfor %}
+        </ol>
+
+        <h2>Posters</h2>
+        <ol>
+            {% for item in site.data.publications %}
+            {% if item.type == "poster" %}
+                    <li class="publication-li">{{item.citation}}
+                        {% if item.link %}
+                        <a href="{{ item.link }}">Link.</a>
+                        {% endif %}
+                    </li>
+            {% endif %}
+        {% endfor %}
+        </ol>
+
+        <h2>Abstracts</h2>
+        <ol>
+            {% for item in site.data.publications %}
+            {% if item.type == "abstract" %}
                     <li class="publication-li">{{item.citation}}
                         {% if item.link %}
                         <a href="{{ item.link }}">Link.</a>
