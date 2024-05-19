@@ -12,7 +12,7 @@
   misc_project: true
 
 - title: Etrian Odyssey Follow-Up Attack Calculator
-  link: aturfah.github.io/eo-chaser-calc/
+  link: https://aturfah.github.io/eo-chaser-calc/
   short_title: EO Chaser Attack Calculator
   description: Web calculator for expected number and distribution of follow-up attacks. Built with React.
   misc_project: true
